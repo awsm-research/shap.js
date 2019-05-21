@@ -1,0 +1,13 @@
+{
+  "name": "shap.js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "shap:install": "cd node_modules/shap/javascript && yarn install",
+    "shap:build": "cd node_modules/shap/javascript && ./node_modules/.bin/webpack --config ../../../webpack.config.js",
+    "postinstall": "yarn shap:install && yarn shap:build"
+  },
+  "dependencies": {
+    "shap": "https://github.com/slundberg/shap"
+  }
+}
