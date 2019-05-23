@@ -1,1 +1,5 @@
-module.exports = require('shap/javascript/build/bundle.js');
+import AdditiveForceVisualizer from 'shap/javascript/visualizers/AdditiveForceVisualizer.jsx';
+
+export {
+  AdditiveForceVisualizer,
+}

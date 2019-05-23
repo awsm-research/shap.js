@@ -1,0 +1,31 @@
+Arguments: 
+  /Users/wjohnson/.nvm/versions/node/v12.1.0/bin/node /usr/local/Cellar/yarn/1.10.1/libexec/bin/yarn.js add webpack file-loader babel-loader
+
+PATH: 
+  /Users/wjohnson/.nvm/versions/node/v12.1.0/bin:/usr/local/opt/openssl/bin:/usr/local/opt/libpq/bin:/Users/wjohnson/.rbenv/shims:/Users/wjohnson/Library/Android/sdk/emulator:/Users/wjohnson/Library/Android/sdk/tools:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Applications/Wireshark.app/Contents/MacOS:/bin:/Users/wjohnson/go/bin:/Users/wjohnson/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.10.1
+
+Node version: 
+  12.1.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/wjohnson/code/ws/shap.js/example/package.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.10.1/libexec/lib/cli.js:1136:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.10.1/libexec/lib/cli.js:98:30)
+      at /usr/local/Cellar/yarn/1.10.1/libexec/lib/cli.js:109:13
+
+npm manifest: 
+  
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

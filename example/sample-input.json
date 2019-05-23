@@ -1,0 +1,118 @@
+{
+  "baseValue": -2.4296968952292426,
+  "featureNames": [
+    "Age",
+    "Workclass",
+    "Education-Num",
+    "Marital Status",
+    "Occupation",
+    "Relationship",
+    "Race",
+    "Sex",
+    "Capital Gain",
+    "Capital Loss",
+    "Hours per week",
+    "Country"
+  ],
+  "features": {
+    "0": {
+      "effect": 0.6614281037708459,
+      "value": 39,
+      "name": "Age",
+      "x": 0.9506635965909912,
+      "textWidth": 48.375,
+      "innerTextWidth": 48.375,
+      "textx": 1.4666197345469787
+    },
+    "1": {
+      "effect": -0.17198225867811676,
+      "value": " State-gov",
+      "name": "Workclass",
+      "x": 8.906457389490457,
+      "textx": null
+    },
+    "2": {
+      "effect": 0.5887585201864031,
+      "value": 13,
+      "name": "Education-Num",
+      "x": 0.36190507640458813,
+      "textWidth": 109.728515625,
+      "innerTextWidth": 109.728515625,
+      "textx": -0.2317654663414932
+    },
+    "3": {
+      "effect": -0.2306723006981516,
+      "value": " Never-married",
+      "name": "Marital Status",
+      "x": 8.474805151288441,
+      "textx": 12.366176079260534
+    },
+    "4": {
+      "effect": -0.20097993750386578,
+      "value": " Adm-clerical",
+      "name": "Occupation",
+      "x": 8.705477451986592,
+      "textx": null
+    },
+    "5": {
+      "effect": -0.8236255140287124,
+      "value": " Not-in-family",
+      "name": "Relationship",
+      "x": 7.6511796372597285,
+      "textWidth": 147.05859375,
+      "innerTextWidth": 147.05859375,
+      "textx": 7.796651603074587
+    },
+    "6": {
+      "effect": 0.02405938407192809,
+      "value": " White",
+      "name": "Race",
+      "x": 0.014279423371704349,
+      "textx": -5.762370941678496
+    },
+    "7": {
+      "effect": 0.3235662689609557,
+      "value": " Male",
+      "name": "Sex",
+      "x": 0.03833880744363244,
+      "textWidth": 60.36328125,
+      "innerTextWidth": 60.36328125,
+      "textx": -3.715193972754242
+    },
+    "8": {
+      "effect": -6.039087936897891,
+      "value": 2174,
+      "name": "Capital Gain",
+      "x": 1.6120917003618371,
+      "textWidth": 197.56878835966975,
+      "innerTextWidth": 109.740234375,
+      "textx": 1.7575636661766956
+    },
+    "9": {
+      "effect": -0.039472640825450614,
+      "value": 0,
+      "name": "Capital Loss",
+      "x": 9.185651937180642,
+      "textx": null
+    },
+    "10": {
+      "effect": -0.10721228901206807,
+      "value": 40,
+      "name": "Hours per week",
+      "x": 9.078439648168574,
+      "textx": null
+    },
+    "11": {
+      "effect": 0.014279423371704349,
+      "value": " United-States",
+      "name": "Country",
+      "x": 0,
+      "textx": null
+    }
+  },
+  "labelMargin": 20,
+  "link": "identity",
+  "outNames": ["output value"],
+  "outValue": -8.430638072511663,
+  "plot_cmap": "RdBu"
+}
