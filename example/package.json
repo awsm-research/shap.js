@@ -1,7 +1,7 @@
 {
   "scripts": {
     "build": "yarn webpack",
-    "start": "python -m SimpleHTTPServer"
+    "start": "cd dist && python -m SimpleHTTPServer"
   },
   "dependencies": {
     "react": "^16.8.6",
